@@ -16,6 +16,10 @@ header {
 	margin: 0 auto;
 }
 
+#conteudo {
+	width: 710;
+	float: left;
+}
 #logo h1 {
 	float: left;
 }
@@ -65,6 +69,7 @@ aside {
 	width: 350px;
 	background: #ebe7dd;
 	padding-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 section#visita {
@@ -89,6 +94,13 @@ section#galeria {
 section#galeria img{
 	margin-left: 2px;
 	margin-top: 3px;
+}
+
+h3 {
+	color: #227115;
+	font-size: 1.0em;
+	margin-bottom: 15px;
+	text-transform: uppercase;
 }
 h4 {
 	color: #86521a;
@@ -125,3 +137,51 @@ legend {
 	display: none;
 }
 
+article#mapa {
+	float: left;
+	margin-left: 37px;
+}
+
+article#video {
+	float:left;
+	margin-left: 25px;
+}
+
+article#exposicoes {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 25px;
+}
+
+article#hists {
+	float: left;
+	width: 310px;
+	margin: 15px 0 0 37px;
+}
+
+
+
+section#postagens article {
+	width: 310px;
+}
+section#postagens {
+	width: 710px;
+	margin-bottom: 20px;
+}
+
+
+footer {
+	padding: 20px 0 30px 0;
+	text-align: center;
+	background-image: url(../img/fundo-rodape.png);
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+
+footer p {
+	padding: 10px;
+}
+
+footer p a {
+	padding: 10px;
+}
